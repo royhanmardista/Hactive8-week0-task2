@@ -5,33 +5,41 @@
 a {
     text-decoration: none;
 }
-header {
-    background: white;
-    padding-left: 5px;     
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    background-color: white;
+    height: 50px;
 }
 
-header ul{
-    list-style: none;      
-      
+nav ul {
+    margin: 0px;
+    padding: 10px;
+    text-align: right;
 }
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
 
 #logo {
     position: fixed;
     padding-right: 55%;
     float: left;
-    top: 0px;
+    top: 100px;
+    display: contents;
 }
-header li {
-    display: inline-block;
-    padding: 15px;    
-    
-}
+
 
 body {
     background-image: url("img/sample-pattern.png");
 }
 section {
-    clear: left;
+    
     margin-top: 30px;
     overflow: auto;
 }
@@ -61,42 +69,13 @@ article h3 {
 footer {
     background: black;
     text-align: center;
-    color: yellow;    
+    color: white;    
     width: 100%;
-    padding: 10px 0px;
+    margin-top: 20px;
+    padding: 25px;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
-nav,
-footer {
-    clear: both;
-    color: #ffffff;
-    background-color: white;
-    height: 50px;
 
-}
 
-nav ul,#logo {
-    margin: 0px;
-    padding: 10px;
-    text-align: right;
-}
 
-nav li , #logo{
-    display: inline;
-    margin-right: 20px;
-}
-
-nav li a , #logo{
-    color: #ffffff;
-}
-
-nav li a:hover,
-nav li a.current {
-    color: #000000;
-}
