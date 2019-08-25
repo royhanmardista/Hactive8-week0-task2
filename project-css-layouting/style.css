@@ -9,29 +9,31 @@ a {
 nav {
     position: fixed;
     top: 0;
-    width: 100%;    
+    width: 85%;    
     background-color: white;
     height: 50px;
+    margin-left: 15%;
 }
 
 nav ul {
-    margin: 0px;
+    margin-right: 20px;
     padding: 10px;
-    text-align: right;
+    text-align: end;
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;    
+    padding-left: 20px; 
 }
 
 
 #logo {
     position: fixed;
-    padding-right: 55%;
-    float: left;
-    top: 100px;
-    display: contents;
+    background-color: white;
+    width: 15%;
+    top: 0%;
+    height: 50px;
+    display: inline-block;
 }
 
 
@@ -39,7 +41,7 @@ body {
     background-image: url("img/sample-pattern.png");
 }
 section {
-    
+   
     margin-top: 30px;
     overflow: auto;
 }
@@ -53,11 +55,10 @@ h1 {
 
 }
 
-
 article {
     background-color: white;
     border-bottom: black solid 1px;
-    width: 70%; 
+    width: 55%; 
     margin: 0px auto;
     padding: 25px;     
 }
